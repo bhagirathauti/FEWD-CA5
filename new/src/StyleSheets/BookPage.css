@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.books{
+    margin: 20px 20px 20px 20px;
+    height: 360px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: aliceblue;
+    transition: ease 1s;
+}
+.books:hover{
+    background-color: #b1b1fa;
+}
+.books img{
+    height: 200px;
+    width: 150px;
+}
+.bookCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    margin: 20px;
+}
+.ratingnPrice{
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
