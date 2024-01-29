@@ -87,7 +87,7 @@ export default function Form() {
                   required: "Password is Required !",
                   minLength: {
                       value: 10,
-                      message: "Password must be more than 10 characters",
+                      message: "Password must have atleast 10 characters",
                     },
                     pattern: {
                         value: /[!@#$%^&*(),.?":{}|<>]/,

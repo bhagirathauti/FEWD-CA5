@@ -12,7 +12,7 @@ const Navbar = ({ onSearch }) => {
     <div className="nav" style={{ display: 'flex', justifyContent: 'space-around' }}>
       <h1>
         {' '}
-        <Link style={{ textDecoration: 'none', color: 'black' }} to={'/NewHome'}>
+        <Link style={{ textDecoration: 'none', color: 'black' }} to={'/'}>
           Kalvium Books
         </Link>{' '}
       </h1>
