@@ -91,7 +91,7 @@ export default function Form() {
                     },
                     pattern: {
                         value: /[!@#$%^&*(),.?":{}|<>]/,
-                        message: "Password must contain at least one special character",
+                        message: "Password must have atleast one special character",
                 },
             })}
             />
@@ -106,7 +106,7 @@ export default function Form() {
               placeholder="Re-Enter Your Password"
               name="repeatPassword"
               {...register("repeatPassword", {
-                  required: "Repeat Password is required !",
+                  required: "Repeated Password is required !",
                   validate: validatePasswordMatch,
                 })}
                 />
@@ -120,11 +120,6 @@ export default function Form() {
             className="btn"
             />
         </form>
-            {registrationSuccessful && (
-              <div>
-                <p>Registration Successful !</p>
-              </div>
-            )}
       </div>
     </div>
   );
