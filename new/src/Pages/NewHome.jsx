@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import NewNavbar from '../Components/NewNavbar';
 import BookPage from '../Components/BookPage';
