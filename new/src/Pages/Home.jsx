@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
 import BookPage from '../Components/BookPage';
-
+// Creating Home component
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
