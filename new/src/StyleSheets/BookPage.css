@@ -38,3 +38,28 @@
     display: flex;
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px){
+    .books{
+        margin: 20px 5px 5px 5px;
+        height: 200px;
+        width: 150px;
+        padding: 10px;
+    }
+    .books img{
+        height: 80px;
+        width: 60px;
+    }
+    .title{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .authorName{
+        font-size: 7px;
+    }
+    .ratingnPrice{
+        margin-top: 10px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

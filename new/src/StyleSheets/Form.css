@@ -77,3 +77,32 @@ input:focus {
     flex-direction: column;
     align-items: center;
 }
+@media only screen and (max-width: 600px){
+    form{
+        padding: 10px;
+        width: 350px;
+        height: 350px;
+    }
+    .inputData{
+        width: 300px;
+    }
+    label{
+        width: 80px;
+        font-size: 15px;
+    }
+    input{
+        height: 20px;
+        width: 150px;
+        border-radius: 3px;
+    }
+    .btn{
+        width: 300px;
+    }
+    .inputData p{
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 7px;
+    }
+}
